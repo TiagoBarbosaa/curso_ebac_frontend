@@ -113,3 +113,11 @@ section h2 {
 #games .articles article a {
     background-color: rgb(8, 6, 119);
 }
+
+#studies {
+    background-color: aquamarine;
+}
+
+#studies .articles article a {
+    background-color: rgb(4, 167, 113);
+}
