@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+input, button {
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: gray;
+}
+
+button:hover {
+    background-color: rgb(17, 204, 17);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form {
+    width: 300px; /* Largura do formulário */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
